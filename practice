@@ -27,7 +27,7 @@ document.getElementById("date&time").innerHTML = d;
  </script>
 </body>
 </html> 
-
+ 
 
 <h2> Conference Presentation: How has Cryptology changed? </h2>
 <script>
