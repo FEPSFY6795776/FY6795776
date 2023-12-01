@@ -49,9 +49,9 @@ document.getElementById("date&time").innerHTML = d;
   showSlide();
   }
 
-  // FUnction to show a specific slide based on the button clicked
+  // Function to show a specific slide based on the button clicked
   function showSlideNumber(slideNumber) {
-    currentSlide = slideNumber -1;
+    currentSlide = slideNumber - 1;
     showSlide();
   }
 
@@ -83,8 +83,8 @@ document.getElementById("date&time").innerHTML = d;
       position: relative;
     }
 
-    /* STyle for the buttons */
-    .button_container {
+    /* Style for the buttons */
+    .button-container {
       position: absolute;
       bottom: 0;
       left: 50%;
@@ -94,11 +94,11 @@ document.getElementById("date&time").innerHTML = d;
 
     .button {
       padding: 10px 20px;
-      background-color: #4caf50;
+      background-color: #4CAF50;
       color: white;
       border: none;
       border-radius: 5px;
-      font-size 16px;
+      font-size: 16px;
       cursor: pointer;
       margin: 0 5px; /*Add some margin between the buttons */
     }
